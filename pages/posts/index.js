@@ -2,7 +2,6 @@ import React from 'react';
 import Post from './post'
 
 const Posts = ({ posts }) => {
-    console.log("Posts -> posts", posts)
     return (<div>
         <ul>
             {
